@@ -101,65 +101,11 @@ docker-compose logs -f polymarket
 
 **📖 [Complete Docker Guide →](./docs/DOCKER.md)**
 
-## Safety & Risk Management
-
-⚠️ **Important Disclaimers:**
-
-- **Use at your own risk** - This bot executes real trades with real money
-- **Start small** - Test with minimal funds before scaling up
-- **Diversify** - Don't copy just one trader; track multiple strategies
-- **Monitor regularly** - Check bot logs daily to ensure proper execution
-- **No guarantees** - Past performance doesn't guarantee future results
-
-### Best Practices
-
-1. Use a dedicated wallet separate from your main funds
-2. Only allocate capital you can afford to lose
-3. Research traders thoroughly before copying
-4. Set up monitoring and alerts
-5. Know how to stop the bot quickly (Ctrl+C)
-
 ## Documentation
 
 ### Getting Started
 - **[🚀 Getting Started Guide](./docs/GETTING_STARTED.md)** - Complete beginner's guide
 - **[⚡ Quick Start](./docs/QUICK_START.md)** - Fast setup for experienced users
-
-### Advanced Guides
-- **[🐳 Docker Deployment](./docs/DOCKER.md)** - Container deployment
-- **[👥 Multi-Trader Guide](./docs/MULTI_TRADER_GUIDE.md)** - Copy multiple traders
-- **[📍 Position Tracking](./docs/POSITION_TRACKING.md)** - How tracking works
-- **[💰 Funding Guide](./docs/FUNDING_GUIDE.md)** - Wallet funding instructions
-
-### Testing & Analysis
-- **[🧪 Simulation Guide](./docs/SIMULATION_GUIDE.md)** - Backtest strategies
-- **[🔬 Simulation Runner](./docs/SIMULATION_RUNNER_GUIDE.md)** - Advanced backtesting
-
-## Troubleshooting
-
-### Common Issues
-
-**Missing environment variables** → Run `npm run setup` to create `.env` file
-
-**MongoDB connection failed** → Verify `MONGO_URI`, whitelist IP in MongoDB Atlas
-
-**Bot not detecting trades** → Verify trader addresses and check recent activity
-
-**Insufficient balance** → Add USDC to wallet and ensure POL/MATIC for gas fees
-
-**Run health check:** `npm run health-check`
-
-**📖 For detailed troubleshooting, see [Quick Start Guide](./docs/QUICK_START.md)**
-
-## Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
@@ -176,11 +122,12 @@ ISC License - See [LICENSE](LICENSE) file for details.
 ## Advanced version
 
 **🚀 Version 2 Available:** An advanced version with **RTDS (Real-Time Data Stream)** monitoring is now available as a private repository. Version 2 features the fastest trade detection method with near-instantaneous trade replication, lower latency, and reduced API load. Copy trading works excellently in the advanced version.
+
 <img width="680" height="313" alt="image (19)" src="https://github.com/user-attachments/assets/d868f9f2-a1dd-4bfe-a76e-d8cbdfbd8497" />zzzzz
 
 ## Monitoring tool
 
-I've also developed a monitoring bot for Polymarket built with **Rust** - it's a useful tool for tracking and analyzing market activity.
+I've also developed a monitoring bot for Polymarket built with **Rust** - it's a useful tool for tracking and analyzing market activity.\n
 Demo: https://www.youtube.com/watch?v=qgdRd8X-oHM
 There is executable file in my repo.
 
