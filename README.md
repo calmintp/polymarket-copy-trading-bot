@@ -112,6 +112,7 @@ This version has more advanced features than version 1 and is a truly profitable
 
 <img width="680" height="313" alt="image (19)" src="https://github.com/user-attachments/assets/d868f9f2-a1dd-4bfe-a76e-d8cbdfbd8497" />
 
+There are several versions, including **TypeScript**, **Python**, and **Rust**.
 ## Trading tool
 
 I've also developed a trading bot for Polymarket built with **Rust**.
