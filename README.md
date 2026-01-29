@@ -10,7 +10,8 @@
 The Polymarket Copy Trading Bot automatically replicates trades from successful Polymarket traders to your wallet. It monitors trader activity 24/7, calculates proportional position sizes based on your capital, and executes matching orders in real-time.
 
 ### How It Works
-<img width="995" height="691" alt="screenshot" src="https://github.com/user-attachments/assets/79715c7a-de2c-4033-81e6-b2288963ec9b" />
+Python || Typescript
+<img width="1007" height="690" alt="download" src="https://github.com/user-attachments/assets/a8d227c7-b25c-4f11-a48f-adef21bbb4db" />
 
 1. **Select Traders** - Choose top performers from [Polymarket leaderboard](https://polymarket.com/leaderboard) or [Predictfolio](https://predictfolio.com)
 2. **Monitor Activity** - Bot continuously watches for new positions opened by selected traders using Polymarket Data API
